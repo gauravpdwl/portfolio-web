@@ -1,0 +1,30 @@
+.topdiv{
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.para{
+    margin: 0;
+}
+
+.at{
+    text-decoration: none;
+    color: black;
+}
+
+.socialmedialist{
+    text-align: center;
+    margin: 70px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+}

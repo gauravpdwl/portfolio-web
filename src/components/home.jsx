@@ -8,12 +8,17 @@ function Home(){
         <div className={homeStyle.topdiv}>
             <div className={homeStyle.contentdiv}>
                 <img className={homeStyle.image} src={svg1} alt="" />
-                <div className={homeStyle.textspace}>
-                    <p>Myself <b>Gaurav Padwal.</b></p>
-                    <p>I&apos;m a fullstack developer with 3+ 
+                <div>
+                    <p className={homeStyle.para}>
+                        Myself <b>Gaurav Padwal.</b>
+                    </p>
+                    <br/>
+                    <p className={homeStyle.para}>
+                        I&apos;m a fullstack developer with 3+ 
                         years of experience building modern web applications. 
                     </p>
-                    <p>I&apos;m proficient in React, Nodejs 
+                    <p className={homeStyle.para}>
+                        I&apos;m proficient in React, Nodejs 
                         and passionate about creating user-friendly and performant 
                         web experiences.
                     </p>

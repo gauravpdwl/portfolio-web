@@ -10,22 +10,24 @@
 .contentdiv{
     text-align: center;
     margin: 20px;
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: 1.125rem;
+    font-weight: 400;
     letter-spacing: 0;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 .image{
     height: 40vh;
     width: 50vw;
-    background-color: rgb(221, 219, 219);
-    margin-bottom: 10px;
+    /* background-color: rgb(221, 219, 219); */
+    background-color: whitesmoke;
+    margin-bottom: 20px;
 }
 
-.textspace{
-    margin: auto;
+.para{
+    margin: 0;
 }
+
 
 b{
     font-weight: 500;

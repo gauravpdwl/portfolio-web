@@ -6,6 +6,11 @@
     margin: 20px;
 }
 
+.childnaavbar{
+    display: flex;
+    flex-direction: row;
+}
+
 .nvlink{
     text-decoration: none;
     color: black;
@@ -13,7 +18,16 @@
     align-self: center;
 }
 
+.childnaavbar > .nvlink{
+    margin: 0 8px;
+}
+
 .nvlinktitle{
     font-family: "Caveat", cursive;
     font-size: 2rem;
+}
+
+.activenvlink{
+    padding: 4px 0;
+    border-bottom: 1px solid black;
 }
