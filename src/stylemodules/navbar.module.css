@@ -1,0 +1,19 @@
+.naavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    margin: 20px;
+}
+
+.nvlink{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    align-self: center;
+}
+
+.nvlinktitle{
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
+}
