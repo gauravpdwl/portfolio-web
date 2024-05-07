@@ -7,12 +7,12 @@ function Home(){
     return <>
         <div className={homeStyle.topdiv}>
             <div className={homeStyle.contentdiv}>
+                <p className={homeStyle.paratop}>
+                        Myself, Gaurav Padwal.
+                </p>
                 <img className={homeStyle.image} src={svg1} alt="" />
                 <div>
-                    <p className={homeStyle.para}>
-                        Myself <b>Gaurav Padwal.</b>
-                    </p>
-                    <br/>
+                    
                     <p className={homeStyle.para}>
                         I&apos;m a fullstack developer with 3+ 
                         years of experience building modern web applications. 

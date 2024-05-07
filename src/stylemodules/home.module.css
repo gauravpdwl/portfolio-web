@@ -28,6 +28,11 @@
     margin: 0;
 }
 
+.paratop{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
 
 b{
     font-weight: 500;

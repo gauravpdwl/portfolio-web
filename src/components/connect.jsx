@@ -16,6 +16,7 @@ function Connect(){
                 <p className={connectStyle.para}><i className="fa-solid fa-envelope"> </i>  gauravpadwal456@gmail.com</p>
                 <p className={connectStyle.para}><i className="fa-brands fa-linkedin"></i> <a className={connectStyle.at} href="https://in.linkedin.com/in/gauravpadwal?trk=people-guest_people_search-card" target="_blank">Gaurav Padwal</a></p>
                 <p className={connectStyle.para}><i className="fa-brands fa-github"></i> <a className={connectStyle.at} href="https://github.com/gauravpdwl" target="_blank">gauravpdwl</a></p>
+                
             </div>
         </div>
     </>
