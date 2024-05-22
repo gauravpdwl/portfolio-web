@@ -37,3 +37,8 @@
 .projectlist_item:hover {
     transform: scale(1.1);
 }
+
+.projectlink{
+    text-decoration: none;
+    color: black;
+}
