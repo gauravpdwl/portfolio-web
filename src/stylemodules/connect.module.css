@@ -1,15 +1,23 @@
 .topdiv{
     height: calc(100vh - 81px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     letter-spacing: 0;
     line-height: 1.5;
     font-size: 1.125rem;
     font-weight: 400;
     margin: 0 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topdivinner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+
 }
 
 .para{
@@ -23,8 +31,24 @@
 
 .socialmedialist{
     text-align: center;
-    margin: 70px;
-    padding: 50px;
     border: 1px solid black;
     border-radius: 25px;
+    width: 30%;
+    padding: 20px;
+    margin: 40px;
+}
+
+
+@media screen and (max-width:952px ) {
+    .socialmedialist{
+
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:452px ) {
+    .socialmedialist{
+
+        width: 90%;
+    }
 }
