@@ -69,11 +69,16 @@ b{
         height: 30vh;
         width: 50vw; 
         background-color: whitesmoke; 
-        margin-bottom: 0px
     }
 
     .para{
         margin: 0;
         margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-height:645px) {
+    .topdiv{
+        height: 100%;
     }
 }

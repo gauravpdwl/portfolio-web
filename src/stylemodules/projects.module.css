@@ -27,7 +27,7 @@
 
 
 .projectlist_item{
-    margin: 0 30px 30px 30px;
+    margin: 0 10px 10px 10px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 20px;
@@ -39,15 +39,35 @@
 }
 
 .projecttitle{
-    
+    margin: 5px;
 }
 
 .projectdescription{
     font-size: 1rem;
+    margin: 5px;
 }
 
 @media (pointer: coarse){
     .projectlist_item:hover {
         transform: none;
+    }
+}
+
+@media screen and (max-height:600px) {
+    .topdiv{
+        height: 100%;
+        margin: 40px 20px 20px 20px;
+    }
+
+    .projectlist_item{
+        margin: 0 10px 10px 10px;
+    }
+
+    .projecttitle{
+        margin: 5px;
+    }
+
+    .projectdescription{
+        margin: 5px;
     }
 }
