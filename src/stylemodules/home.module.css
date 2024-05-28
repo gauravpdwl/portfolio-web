@@ -59,7 +59,7 @@ b{
     font-weight: 400;
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:1000px){
     .about{
         width: 90%;
         text-align: justify;
@@ -75,10 +75,18 @@ b{
         margin: 0;
         margin-bottom: 5px;
     }
+
+    .contentdiv{
+        padding: 30px 0;
+    }
 }
 
-@media screen and (max-height:645px) {
+@media screen and (max-height:800px) {
     .topdiv{
         height: 100%;
+    }
+
+    .contentdiv{
+        padding: 30px 0;
     }
 }
