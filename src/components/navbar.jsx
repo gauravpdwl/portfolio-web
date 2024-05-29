@@ -9,7 +9,7 @@ function Navbar(){
     return <>
         <div className={navbarStyle.naavbar}>
             <div>
-                <Link className={`${navbarStyle.nvlink} ${navbarStyle.nvlinktitle}`} to="/">Hello World!</Link>
+                <Link className={`${navbarStyle.nvlink} ${navbarStyle.nvlinktitle}`} to="/">gbp</Link>
             </div>
             <div className={navbarStyle.childnaavbar}>
                 <Link className={`${navbarStyle.nvlink} ${location.pathname==='/projects'? navbarStyle.activenvlink:''}`} to="/projects">Projects</Link>
